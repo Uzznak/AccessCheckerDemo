@@ -58,7 +58,7 @@
 
             try {
                 // Appel au backend
-                const response = await fetch(`https://ton-backend-render.onrender.com/check_access?username=${username}`);
+                const response = await fetch(`https://access-checker-demo.vercel.app/check_access?username=${username}`);
                 if (!response.ok) throw new Error("Utilisateur non trouvé");
 
                 const data = await response.json();
