@@ -60,7 +60,7 @@ function afficherResultats(username, droits) {
             <li class="list-group-item d-flex justify-content-between">
                 ${service}
                 <span>
-                    ${access ? "✅" : "❌"}
+                    ${access ? "Accès authorisé" : "Accès refusé"}
                 </span>
             </li>
         `;
