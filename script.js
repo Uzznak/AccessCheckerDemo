@@ -50,7 +50,7 @@ function afficherResultats(username, droits) {
     let html = `
         <div class="card">
             <div class="card-body">
-                <h4>Résultat pour ${username}</h4>
+                <h4>Utilisateur:  ${username}</h4>
                 <ul class="list-group mt-3">
     `;
 
